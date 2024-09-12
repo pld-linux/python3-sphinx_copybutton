@@ -5,15 +5,15 @@
 Summary:	Add a copy button to each of your code cells
 Summary(pl.UTF-8):	Dodanie przycisku do kopiowania do każdej komórki z kodem
 Name:		python3-sphinx_copybutton
-Version:	0.5.0
-Release:	5
+Version:	0.5.2
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sphinx-copybutton/
 Source0:	https://files.pythonhosted.org/packages/source/s/sphinx-copybutton/sphinx-copybutton-%{version}.tar.gz
-# Source0-md5:	223f26b9ba5397e5554075bc540a3b46
+# Source0-md5:	dea6f565084ba8046512b18312fb5471
 URL:		https://pypi.org/project/sphinx-copybutton/
-BuildRequires:	python3-modules >= 1:3.6
+BuildRequires:	python3-modules >= 1:3.7
 BuildRequires:	python3-setuptools
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
@@ -23,7 +23,7 @@ BuildRequires:	python3-myst_nb
 BuildRequires:	python3-sphinx_book_theme
 BuildRequires:	sphinx-pdg-3 >= 1.8
 %endif
-Requires:	python3-modules >= 1:3.6
+Requires:	python3-modules >= 1:3.7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
